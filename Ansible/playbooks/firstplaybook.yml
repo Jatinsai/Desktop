@@ -1,0 +1,5 @@
+---
+- hosts: myservers
+  tasks:
+    - name: test the connection
+      ping:
