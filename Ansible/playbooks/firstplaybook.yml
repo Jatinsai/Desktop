@@ -3,3 +3,8 @@
   tasks:
     - name: test the connection
       ping:
+
+    - name: Package Installation
+      yum:
+        name: httpd
+        state: present
